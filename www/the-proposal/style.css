@@ -89,11 +89,11 @@ p.subtle {
     line-height: 24pt;
     font-size: 12pt;
     text-indent: 24pt;
-    margin: 20pt 8pt;
+    margin: 20pt 4pt;
   }
 
   p.subtle {
-    margin: 20pt 16pt;
+    margin: 20pt 8pt;
     font-size: 10pt;
     line-height: 18pt;
   }
