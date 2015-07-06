@@ -1,0 +1,93 @@
+* {
+  font-family: 'Arial', sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #282828;
+}
+
+.fisher, .lisa {
+  position:absolute;
+  width: 48%;
+  height: 100%;
+  top:0;
+  background-color: #282828;
+}
+
+.fisher, .fisher *, .lisa, .lisa * {
+  color: #e8e8e8;
+  -webkit-transition: color 0.35s ease, background 0.35s ease;
+     -moz-transition: color 0.35s ease, background 0.35s ease;
+      -ms-transition: color 0.35s ease, background 0.35s ease;
+       -o-transition: color 0.35s ease, background 0.35s ease;
+          transition: color 0.35s ease, background 0.35s ease;
+}
+
+.fisher:hover *, .lisa:hover * {
+  color: #ffffff;
+}
+
+.fisher {
+  left: 0;
+  padding-right:2%;
+}
+
+.fisher:hover {
+  background-color: #0080FF;
+}
+
+.lisa {
+  right: 0;
+  padding-left:2%;
+}
+
+.lisa:hover {
+  background-color: #8000FF;
+}
+
+.title {
+  display: flex;
+  height: 100%;
+  width: 95%;
+  line-height: 100px;
+  font-weight: 700;
+  align-items: center;
+  text-align: center;
+}
+
+.fisher .title {
+  font-family: 'Chewy', cursive;
+  letter-spacing: 2px;
+  font-size: 85px;
+
+  justify-content: flex-end;
+  padding-right: 5%;
+}
+
+.lisa .title {
+  font-family: 'Oleo Script', cursive;
+  font-size: 90px;
+
+  justify-content: flex-start;
+  padding-left: 5%;
+}
+
+.and {
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -50px;
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+  font-size: 48px;
+  font-weight: 700;
+  color: #e8e8e8;
+  pointer-events:none;
+}
