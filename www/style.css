@@ -56,6 +56,28 @@ p.subtle {
   color: #808080;
 }
 
+p.small {
+  text-align: center;
+  text-indent: 0;
+  font-style: italic;
+  font-size: 12pt;
+  color: #606060;
+  width: 66%;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p a {
+  text-decoration: none;
+  color: #0066FF;
+  font-weight: 700;
+}
+
+p a:hover {
+  color: #0051CA;
+}
+
 .content img {
   display: block;
   position: relative;
@@ -63,6 +85,16 @@ p.subtle {
   margin: 10pt auto;
   max-height: 80vh;
   box-shadow: 0 0 3px #444;
+}
+
+.signup-form {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.signup-form input {
+  padding: 5px;
+  font-family: Roboto, Arial, sans-serif;
 }
 
 @media (max-width: 800px) {
